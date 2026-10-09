@@ -1,1 +1,11 @@
-
+{
+  "name": "playwright_nik",
+  "version": "1.0.0",
+  "description": "Playwright Firefox authentication test",
+  "scripts": {
+    "test": "node tests/authentication.spec.js"
+  },
+  "dependencies": {
+    "playwright": "^1.39.0"
+  }
+}
